@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useAccount } from "wagmi";
 import TokenBal from "@/components/Modal/TokenBal";
 import StakedNft from "@/components/Modal/StakedNFT";
-import UnstakedNft from "@/components/Modal/UnstakedNft";
+import UnstakedNft from "@/components/Modal/UnstakedNFT";
 
 export default function Home() {
   const { address } = useAccount();
